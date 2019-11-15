@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
         add=findViewById(R.id.sum);
         mul=findViewById(R.id.mul);
         div=findViewById(R.id.div);

@@ -48,9 +48,10 @@
         android:id="@+id/sub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/div"
-        android:layout_marginBottom="142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="122dp"
         android:text="SUB"
         tools:layout_editor_absoluteX="234dp"
         tools:layout_editor_absoluteY="299dp" />
@@ -67,17 +68,17 @@
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="382dp" />
 
+
     <Button
         android:id="@+id/div"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="62dp"
+        android:layout_marginBottom="57dp"
         android:layout_toStartOf="@+id/cal"
         android:text="DIV"
         tools:layout_editor_absoluteX="234dp"
         tools:layout_editor_absoluteY="390dp" />
-
 
     <TextView
         android:id="@+id/tv"
